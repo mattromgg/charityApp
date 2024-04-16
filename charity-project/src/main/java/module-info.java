@@ -4,6 +4,7 @@ module greengates.ib.charity.project {
 
     opens greengates.ib.charity.project to javafx.fxml;
     exports greengates.ib.charity.project;
+    exports greengates.ib.charity.project.controller;
 
     requires transitive javafx.graphics;
 }
